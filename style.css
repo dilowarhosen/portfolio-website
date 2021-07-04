@@ -1,0 +1,53 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+section{
+    display:flex;
+}
+
+.simple-color{
+    color: orange;
+}
+
+.half-width{
+    width:40%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 150px;
+
+}
+
+#hire-me{
+    text-decoration: none;
+    background-image: linear-gradient(#dd4f32, #f17142);
+    padding: 10px 40px;
+    border-radius: 10px;
+    font-weight: 700;
+    color:white;
+    
+}
+
+div img{
+    width:90%;
+    position: left;
+
+}
+
+#background{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+
+}
+
+#dream-big-background{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
