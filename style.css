@@ -8,8 +8,9 @@ h1{
     font-weight: 700;
 }
 
-section{
-    display:flex;
+.flexiable-container{
+    display: flex;
+    padding-bottom: 150px;
 }
 
 .simple-color{
@@ -20,7 +21,7 @@ section{
     width:40%;
     padding-left: 5%;
     padding-right: 5%;
-    padding-bottom: 150px;
+    
 
 }
 
@@ -50,4 +51,45 @@ div img{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.expe-margin{
+    
+    font-size: 30px ;
+    margin-left: 20px;
+   
+}
+.experience-item{
+    width: 40%;
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 30px;
+    
+    
+}
+
+.experience-section{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    position: left;
+}
+
+#firstborder{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, red);
+    border-image-slice: 1;
+    
+}
+
+#ditiyo{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+
+}
+
+footer p{
+    text-align: center;
+    color: rgb(75, 68, 68);
 }
